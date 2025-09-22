@@ -24,6 +24,7 @@ class BoardArray : public Board {
         }
     }
 
+    
     if (index < SIZE) {
 
         for (int j = index; j > pos; j--) {
