@@ -16,7 +16,9 @@ class BoardArray : public Board {
         void add(Entry* entry) {
             if (index < SIZE) {
                 array[index] = *entry;
-                index++;
+                index++;    
+
+                cout << "Entry added successfully." << endl;
             }
             return;
             }
